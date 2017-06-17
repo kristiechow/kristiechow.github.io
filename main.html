@@ -6,14 +6,31 @@
   <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
   <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+  <style>
+  #container {
+    padding: 50px;
+    background-color: #FFE1E6;
+  }
+  #container h1 {
+    font-size: 144px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+  }
+</style>
 </head>
 
 <body>
+  <div id="container"></div>
   <script type="text/babel">
-  ReactDOM.render(
-    <h1>Kristie Chow</h1>,
-    document.body
-  );
+  var destination = document.querySelector("#container");
+  ReactDOM.render(React.createElement(
+      "h1",
+      null,
+      "Kristie Chow"
+    ), destination);
+
   </script>
 </body>
 
