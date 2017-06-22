@@ -8,33 +8,40 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
   <style>
-  #container {
-    padding: 50px;
-    background-color: #FFE1E6;
+  img {
+    height: 10%;
+    width: 50%;
+    padding-top: 18%;
+    padding-bottom: 10px;
   }
-  #container h1 {
-    font-size: 144px;
-    font-family: sans-serif;
-    font-weight: 100;
-    padding-top: 112px;
-    padding-bottom: 112px;
-    color: white;
-    text-align: center;
+
+  .center {
+    margin: 0 auto;
+    display: block;
+}
+
+  .linkpic {
+    height: 36px;
+    width: 36px;
+    padding: 10px;
   }
-</style>
+
+  .links {
+    width: 16%;
+    margin: 0 auto;
+  }
+
+  </style>
 </head>
 
 <body>
   <div id="container"></div>
-  <script type="text/babel">
-  var destination = document.querySelector("#container");
-  ReactDOM.render(React.createElement(
-      "h1",
-      null,
-      "kristie chow"
-    ), destination);
-
-  </script>
+  <img src="nameimg.png" class="center">
+  <div class="links">
+    <a href="https://github.com/kristiechow"><img src="gthb.png" class="linkpic"></a>
+    <a href="https://www.linkedin.com/in/kristiemhchow/"><img src="lnkdn.png" class="linkpic"></a>
+    <a href="https://twitter.com/kristiemhchow"><img src="twttr.png" class="linkpic"></a>
+  </div>
 </body>
 
 </html>

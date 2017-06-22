@@ -1,4 +1,5 @@
 // webpack.config.js
+
 if(process.env.NODE_ENV === 'development'){
   var loaders = ['react-hot','babel']
 } else {
