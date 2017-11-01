@@ -1,6 +1,6 @@
 
 .portmanteau1 {
-  height: 65vh;
+  height: 75vh;
 }
 
 .portmanteau1 p {
@@ -11,6 +11,13 @@
 .projectimg {
   width: 97%;
   padding-top: 3%;
+}
+
+.topimg{
+  width: 3em;
+  margin: 3% 0 1% 3%;
+  display: inline-block;
+  position: relative;
 }
 
 .portmanteau2 {

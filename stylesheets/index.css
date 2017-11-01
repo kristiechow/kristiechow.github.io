@@ -14,7 +14,7 @@ body {
 }
 
 .portmanteau1 {
-  height: 60vh;
+  height: 65vh;
 }
 
 .portmanteau1 p {
@@ -31,7 +31,14 @@ body {
 }
 
 .homeimg {
-  width: 97%;
+  width: 95%;
+}
+
+.topimg{
+  width: 3em;
+  margin: 3% 0 0 3%;
+  display: inline-block;
+  position: relative;
 }
 
 .portmanteau2 {
