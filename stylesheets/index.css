@@ -63,7 +63,7 @@ body {
 
 .portmanteau2 {
   background-color: #f3f0ed;
-  height: 150vh;
+  height: 140vh;
 }
 
 .portmanteau3 {
@@ -121,13 +121,40 @@ body {
   font-size: 0.9em;
   color: #444443;
   margin-top: 12px;
-  text-align: center;
   letter-spacing: 0.2em;
   text-decoration: none;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out;
   text-decoration: none;
+}
+
+.footer{
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.footlink{
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #444443;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.footlink:hover{
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #444443;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  -webkit-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -o-transition: .1s ease-in-out;
 }
 
 .description1{
