@@ -15,7 +15,7 @@
 
 .portmanteau2 {
   background-color: #f3f0ed;
-  height: 100vh;
+  height: 95vh;
 }
 
 .portmanteau3 {
@@ -77,10 +77,40 @@
   font-weight: 100;
   font-size: 0.9em;
   padding-bottom: 0.5em;
-  line-height: 1.6em;
+  line-height: 2.1em;
   text-align: justify;
-    text-justify: inter-word;
-    width: 100%;
+  width: 100%;
+}
+
+.technologies{
+  font-weight: 100;
+  font-size: 0.9em;
+  padding-bottom: 0.5em;
+  line-height: 2.1em;
+  text-align: justify;
+  font-family: 'Lora', serif;
+  padding: 5% 23.5% 5% 23.5%;
+  width: 100%;
+}
+
+.linkbuttons{
+  color: #333;
+  display: block;
+  width: 26%;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  font-weight: 100;
+  letter-spacing: .1rem;
+  font-size: 0.8em;
+  border: 1px solid #d8d7d6;
+  transition: all .4s ease-out;
+  line-height: 1.5rem;
+  background-color: transparent;
+  border-radius: 0;
 }
 
 .projectpic{
