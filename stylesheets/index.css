@@ -34,7 +34,27 @@ body {
   width: 95%;
 }
 
-.topimg{
+.topbutton{
+  color: #333;
+  display: block;
+  width: 10%;
+  float: right;
+  margin: 3% 3% 0 0;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  font-weight: 100;
+  letter-spacing: .1rem;
+  font-size: 0.7em;
+  border: 1px solid #d8d7d6;
+  transition: all .4s ease-out;
+  line-height: 1.5rem;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.topimg {
   width: 3em;
   margin: 3% 0 0 3%;
   display: inline-block;
