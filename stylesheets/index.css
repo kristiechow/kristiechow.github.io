@@ -117,7 +117,7 @@ body {
   font-weight: 300;
   font-size: 0.8em;
   color: #444443;
-  margin-top: 12px;
+  margin-top: 10px;
   text-align: center;
   letter-spacing: 0.2em;
   text-decoration: none;
@@ -127,12 +127,12 @@ body {
   font-weight: 400;
   font-size: 0.9em;
   color: #444443;
-  margin-top: 12px;
+  margin-top: 10px;
   letter-spacing: 0.2em;
   text-decoration: none;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
   text-decoration: none;
 }
 
@@ -168,6 +168,19 @@ body {
   font-size: 0.8em;
   padding-bottom: 0.5em;
   line-height: 1.6em;
+}
+
+.projectpic:hover + .label1 {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #444443;
+  margin-top: 10px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  text-decoration: none;
 }
 
 .projectpic{
