@@ -149,30 +149,44 @@
   letter-spacing: .1rem;
   font-size: 0.8em;
   border: 1px solid #d8d7d6;
-  transition: all .4s ease-out;
+  transition: background-position .3s;
   line-height: 1.5rem;
-  background-color: transparent;
   border-radius: 0;
+  background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+  background-size: 100% 200%;
 }
 
-.topbutton{
+.linkbuttons:hover {
+    background-position: 0 -100%;
+    text-decoration: none;
+    color: #fff;
+  }
+
+.topbutton {
   color: #333;
-  display: block;
-  width: 10%;
-  float: right;
-  margin: 3% 3% 0 0;
+  display: inline-block;
+  outline: none;
+  background-color: white;
+  width: 10%
+  padding: 0 20px;
+  line-height: 200%;
+  border: 1px solid #d8d7d6;
   padding: 8px 20px;
   text-align: center;
   text-decoration: none;
-  overflow: hidden;
-  font-weight: 100;
+  float: right;
+  margin: 3% 3% 0 0;
   letter-spacing: .1rem;
   font-size: 0.7em;
-  border: 1px solid #d8d7d6;
-  transition: all .4s ease-out;
-  line-height: 1.5rem;
-  background-color: transparent;
-  border-radius: 0;
+  background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+  background-size: 100% 200%;
+  transition: background-position .3s;
+}
+
+.topbutton:hover {
+    background-position: 0 -100%;
+    text-decoration: none;
+    color: #fff;
 }
 
 .showcase{
