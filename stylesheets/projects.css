@@ -249,6 +249,33 @@
   text-decoration: none;
 }
 
+.footer{
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.footlink{
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #444443;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.footlink:hover{
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #444443;
+  letter-spacing: 0.1em;
+  -webkit-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -o-transition: .1s ease-in-out;
+}
+
 @media screen and (max-width: 521px) {
   .body {
      font-size: 2vw;
