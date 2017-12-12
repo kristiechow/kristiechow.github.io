@@ -19,6 +19,12 @@
   padding-right: 3%;
 }
 
+.sendimg {
+  width: 31%;
+  display: inline-block;
+  padding-right: 2%;
+}
+
 .projectimgs {
   padding-top: 2%;
   width: 70%;
@@ -249,9 +255,30 @@
   text-decoration: none;
 }
 
+.img-with-text {
+    text-align: center;
+    width: 5em;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 .footer{
   text-decoration: none;
   margin-top: 0.5em;
+}
+
+.foottext{
+  font-weight: 150;
+  font-size: 0.6em;
+  color: #444443;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.4em;
+  padding-left: 1.2em;
 }
 
 .footlink{
@@ -261,7 +288,7 @@
   text-align: right;
   letter-spacing: 0.1em;
   text-decoration: none;
-  margin-top: 0.5em;
+  margin-top: 0.6em;
   margin-bottom: 0;
 }
 

@@ -43,6 +43,16 @@ body {
   width: 95%;
 }
 
+.img-with-text {
+    text-align: justify;
+    width: 5em;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
 .topbutton {
   color: #333;
   display: inline-block;
@@ -175,6 +185,17 @@ body {
 .footer{
   text-decoration: none;
   margin-top: 0.5em;
+}
+
+.foottext{
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #444443;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-bottom: 0;
 }
 
 .footlink{
