@@ -188,14 +188,14 @@ body {
 }
 
 .foottext{
-  font-weight: 300;
-  font-size: 0.8em;
+  font-weight: 150;
+  font-size: 0.6em;
   color: #444443;
-  text-align: right;
+  text-align: center;
   letter-spacing: 0.1em;
   text-decoration: none;
-  margin-top: 0.5em;
-  margin-bottom: 0;
+  margin-top: 0.4em;
+  padding-left: 1.2em;
 }
 
 .footlink{
