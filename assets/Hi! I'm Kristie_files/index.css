@@ -1,0 +1,569 @@
+body {
+    color: #444443;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 1.28px;
+    letter-spacing: .08rem;
+    font-family: avenir,sans-serif;
+    line-height: 1.8;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.portmanteau1 {
+  height: 65vh;
+}
+
+.portmanteau1 p {
+  color: #444443;
+  margin: 2.5% 10% 0% 4%;
+}
+
+.welcome1 {
+  font-family: 'Lora', serif;
+  line-height: 2;
+  vertical-align: top;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.welcome2 {
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  line-height: 2;
+  vertical-align: top;
+  margin: 0% 1% 5% 27%;
+  font-size: 1.7em;
+}
+
+.homeimg {
+  width: 95%;
+}
+
+.img-with-text {
+    text-align: justify;
+    display: inline-block;
+    width: 5em;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.topbutton {
+  color: #333;
+  display: inline-block;
+  outline: none;
+  background-color: white;
+  width: 10%
+  padding: 0 20px;
+  line-height: 200%;
+  border: 1px solid #d8d7d6;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin: 3% 3% 0 0;
+  letter-spacing: .1rem;
+  font-size: 0.7em;
+  background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+  background-size: 100% 200%;
+  transition: background-position .3s;
+}
+
+.topbutton:hover {
+    background-position: 0 -100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.aboutbutton {
+  color: #333;
+  font-family: avenir,sans-serif;
+  margin: 0% 0 0 1%;
+  display: inline-block;
+  outline: none;
+  background-color: white;
+  width: 10%
+  padding: 0 20px;
+  line-height: 200%;
+  border: 1px solid #d8d7d6;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .1rem;
+  font-size: 0.9em;
+  background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+  background-size: 100% 200%;
+  transition: background-position .3s;
+}
+
+.aboutbutton:hover {
+    background-position: 0 -100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.topimg {
+  width: 3em;
+  margin: 3% 0 0 3%;
+  display: inline-block;
+  position: relative;
+}
+
+.portmanteau2 {
+  background-color: #f3f0ed;
+  height: 180vh;
+}
+
+.portmanteau3 {
+  background-color: #fff;
+  height: 30vh;
+}
+
+.line {
+  display:block;
+  margin:auto;
+  height: 5.5em;
+  margin-right: 33px;
+}
+
+.linkpic {
+  display: block;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  width: 55%;
+  height: 55%;
+}
+
+.links {
+  padding-top: 0.3%;
+  right: 0;
+  position: fixed;
+}
+
+.sub1{
+  font-weight: 300;
+  font-size: 1.5em;
+  margin-bottom: 0.8em;
+  margin-top: 0.3em;
+  margin-right: 5em;
+}
+
+.sub2{
+  font-weight: 300;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.label1{
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #444443;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+
+.label1:hover{
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #444443;
+  margin-top: 10px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  text-decoration: none;
+}
+
+.footer{
+  text-decoration: none;
+  margin-top: 0.5em;
+}
+
+.foottext{
+  font-weight: 150;
+  font-size: 0.6em;
+  color: #444443;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.4em;
+  padding-left: 1.2em;
+}
+
+.footlink{
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #444443;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.footlink:hover{
+  font-weight: 400;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #444443;
+  letter-spacing: 0.1em;
+  -webkit-transition: .1s ease-in-out;
+  -moz-transition: .1s ease-in-out;
+  -o-transition: .1s ease-in-out;
+}
+
+.description1{
+  font-weight: 200;
+  font-size: 0.8em;
+  padding-bottom: 0.5em;
+  line-height: 1.6em;
+}
+
+.projectpic:hover + .label1 {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #444443;
+  margin-top: 10px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+.projectpic{
+  width: 100%;
+  height: 90%;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .3s ease-in-out;
+}
+
+.projectpic:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .3s ease-in-out;
+}
+
+.project {
+  display: block;
+  vertical-align:top;
+}
+
+.project2 {
+  display: inline-block;
+  height: 12em;
+  width: 27%;
+  margin: 2em 1.5em 2em 1.5em;
+  float: left;
+  text-decoration: none;
+}
+
+.project2 a {
+  text-decoration: none;
+}
+
+.projectrow {
+  padding: 6% 10% 0 14%;
+}
+
+@media screen and (max-width: 521px) {
+  .body {
+     font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .footersocial{
+    display: none;
+  }
+
+  .homeimg {
+    display: none;
+  }
+}
+
+/* iPad Portrait */
+@media only screen and (max-width: 770px) {
+
+    .project2 {
+      display: inline-block;
+      height: 10em;
+      width: 40%;
+      margin: 2em 1.5em 2em 1.5em;
+      float: left;
+      text-decoration: none;
+    }
+
+    .projectrow {
+      padding: 31% 10% 0 14%;
+    }
+
+    .sub1 {
+      font-size: 3em;
+    }
+
+    .projectpic{
+      width: 100%;
+      height: 90%;
+      -webkit-filter: grayscale(20%);
+      -webkit-transition: .3s ease-in-out;
+      -moz-filter: grayscale(20%);
+      -moz-transition: .3s ease-in-out;
+      -o-filter: grayscale(20%);
+      -o-transition: .3s ease-in-out;
+    }
+
+    .aboutbutton {
+      color: #333;
+      font-family: avenir,sans-serif;
+      margin: 3% 0 0 33%;
+      display: inline-block;
+      outline: none;
+      background-color: white;
+      width: 10%
+      padding: 0 20px;
+      line-height: 200%;
+      border: 1px solid #d8d7d6;
+      padding: 10px 40px;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: .1rem;
+      font-size: 0.9em;
+      background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+      background-size: 100% 200%;
+      transition: background-position .3s;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 157vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 18vh;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .welcome1 {
+      font-size: 1.5em;
+    }
+
+    .welcome2 {
+      font-size: 0.8em;
+    }
+
+    .projectrow {
+      padding: 11% 10% 0 14%;
+    }
+
+    .sub1 {
+      font-size: 2em;
+    }
+
+    .project2 {
+      display: inline-block;
+      height: 12em;
+      width: 75%;
+      margin: 2em 1.5em 2em 1.5em;
+      float: left;
+      text-decoration: none;
+    }
+
+    .aboutbutton {
+      color: #333;
+      font-family: avenir,sans-serif;
+      margin: 3% 0 0 20%;
+      display: inline-block;
+      outline: none;
+      background-color: white;
+      width: 10%
+      padding: 0 20px;
+      line-height: 200%;
+      border: 1px solid #d8d7d6;
+      padding: 10px 40px;
+      text-align: center;
+      text-decoration: none;
+      letter-spacing: .1rem;
+      font-size: 0.9em;
+      background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+      background-size: 100% 200%;
+      transition: background-position .3s;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 358vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 18vh;
+    }
+
+    div.col-sm-3.col-xs-5.footer.footernav {
+      width: 69%;
+    }
+
+}
+
+    /* iPhone Portrait and Landscape */
+    @media only screen
+      and (min-device-width: 360px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+
+
+            .welcome1 {
+              font-size: 1.4em;
+            }
+
+            .welcome2 {
+              font-size: 0.8em;
+            }
+
+            .projectrow {
+              padding: 11% 10% 0 14%;
+            }
+
+            .sub1 {
+              font-size: 2em;
+            }
+
+            .project2 {
+              display: inline-block;
+              height: 12em;
+              width: 75%;
+              margin: 2em 1.5em 2em 1.5em;
+              float: left;
+              text-decoration: none;
+            }
+
+            .aboutbutton {
+              color: #333;
+              font-family: avenir,sans-serif;
+              margin: 3% 0 0 20%;
+              display: inline-block;
+              outline: none;
+              background-color: white;
+              width: 10%
+              padding: 0 20px;
+              line-height: 200%;
+              border: 1px solid #d8d7d6;
+              padding: 10px 40px;
+              text-align: center;
+              text-decoration: none;
+              letter-spacing: .1rem;
+              font-size: 0.9em;
+              background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+              background-size: 100% 200%;
+              transition: background-position .3s;
+            }
+
+            .portmanteau2 {
+              background-color: #f3f0ed;
+              height: 395vh;
+            }
+
+            .portmanteau3 {
+              background-color: #fff;
+              height: 19vh;
+            }
+
+            div.col-sm-3.col-xs-5.footer.footernav {
+              width: 69%;
+            }
+
+    }
+
+/* Portrait and Landscape */
+@media screen and (device-aspect-ratio: 40/71) {
+
+      .welcome1 {
+        font-size: 1.2em;
+      }
+
+      .welcome2 {
+        font-size: 0.8em;
+      }
+
+      .projectrow {
+        padding: 11% 10% 0 14%;
+      }
+
+      .sub1 {
+        font-size: 2em;
+      }
+
+      .project2 {
+        display: inline-block;
+        height: 12em;
+        width: 75%;
+        margin: 2em 1.5em 2em 1.5em;
+        float: left;
+        text-decoration: none;
+      }
+
+      .aboutbutton {
+        color: #333;
+        font-family: avenir,sans-serif;
+        margin: 3% 0 0 20%;
+        display: inline-block;
+        outline: none;
+        background-color: white;
+        width: 10%
+        padding: 0 20px;
+        line-height: 200%;
+        border: 1px solid #d8d7d6;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: .1rem;
+        font-size: 0.9em;
+        background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+        background-size: 100% 200%;
+        transition: background-position .3s;
+      }
+
+      .portmanteau2 {
+        background-color: #f3f0ed;
+        height: 458vh;
+      }
+
+      .portmanteau3 {
+        background-color: #fff;
+        height: 18vh;
+      }
+
+      div.col-sm-3.col-xs-5.footer.footernav {
+        width: 69%;
+      }
+
+  }
+}
