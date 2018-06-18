@@ -53,6 +53,11 @@
   height: 82vh;
 }
 
+.portmanteauTarsier {
+  background-color: #f3f0ed;
+  height: 275vh;
+}
+
 .portmanteau3 {
   background-color: #fff;
   height: 30vh;
@@ -104,8 +109,8 @@
   text-decoration: none;
   display: inline;
   width: 50%;
-  padding-left: 13%;
-  padding-right: 13%;
+  padding-left: 12%;
+  padding-right: 1%;
 }
 
 .description1{
