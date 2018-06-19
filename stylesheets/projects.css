@@ -3,7 +3,16 @@
   height: 75vh;
 }
 
+.portmanteauTars {
+  height: 95vh;
+}
+
 .portmanteau1 p {
+  color: #444443;
+  margin: 2.5% 10% 0% 4%;
+}
+
+.portmanteauTars p {
   color: #444443;
   margin: 2.5% 10% 0% 4%;
 }
@@ -11,6 +20,7 @@
 .projectimg {
   width: 97%;
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .catimg {
@@ -55,7 +65,7 @@
 
 .portmanteauTarsier {
   background-color: #f3f0ed;
-  height: 275vh;
+  height: 425vh;
 }
 
 .portmanteau3 {
