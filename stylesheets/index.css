@@ -132,9 +132,8 @@ body {
 
 .line {
   display:block;
-  margin:auto;
   height: 5.5em;
-  margin-right: 33px;
+  padding-left: 12px;
 }
 
 .linkpic {

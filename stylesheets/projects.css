@@ -75,9 +75,10 @@
 
 .line {
   display:block;
-  margin:auto;
   height: 3.9em;
-  margin-right: 33px;
+  padding-left: 12px;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .linkpic {
