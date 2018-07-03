@@ -390,7 +390,7 @@ body {
   }
 }
 
-/* Portrait and Landscape */
+/* iPhone X Portrait and Landscape */
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
@@ -409,7 +409,7 @@ body {
       vertical-align: top;
       padding-top: 15%;
       padding-bottom: 5%;
-      font-size: 1.5em;
+      font-size: 1.3em;
     }
 
     .project2 {
