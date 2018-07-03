@@ -432,7 +432,7 @@ body {
 
     .portmanteau2 {
       background-color: #f3f0ed;
-      height: 350vh;
+      height: 300vh;
     }
 
     .portmanteau3 {
@@ -481,7 +481,6 @@ body {
 /* iPhone Plus Portrait and Landscape */
 @media only screen
   and (min-device-width: 414px)
-  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3) {
     .links {
       display: none;
