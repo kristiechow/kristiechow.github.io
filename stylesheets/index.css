@@ -117,7 +117,7 @@ body {
 
 .portmanteau2 {
   background-color: #f3f0ed;
-  height: 180vh;
+  height: 280vh;
 }
 
 .portmanteau3 {
@@ -162,7 +162,7 @@ body {
 
 .label1{
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #444443;
   margin-top: 10px;
   text-align: center;
@@ -172,10 +172,10 @@ body {
 
 .label1:hover{
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #444443;
   margin-top: 10px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-decoration: none;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
@@ -230,10 +230,10 @@ body {
 
 .projectpic:hover + .label1 {
   font-weight: 400;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #444443;
   margin-top: 10px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.3em;
   text-decoration: none;
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
@@ -268,8 +268,8 @@ body {
 
 .project2 {
   display: inline-block;
-  height: 12em;
-  width: 27%;
+  height: 19em;
+  width: 43%;
   margin: 2em 1.5em 2em 1.5em;
   float: left;
   text-decoration: none;
@@ -277,8 +277,8 @@ body {
 
 .project2:hover {
   display: inline-block;
-  height: 12em;
-  width: 27%;
+  height: 19em;
+  width: 43%;
   margin: 2em 1.5em 2em 1.5em;
   float: left;
   text-decoration: none;
