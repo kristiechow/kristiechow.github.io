@@ -304,8 +304,8 @@ body {
 
 /* iPhone 6/7/8 Portrait and Landscape */
 @media only screen
-  and (min-device-width: 360px)
-  and (max-device-width: 667px)
+  and (min-width: 360px)
+  and (max-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
   .links {
     display: none;
@@ -392,8 +392,8 @@ body {
 
 /* iPhone X Portrait and Landscape */
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
+  and (min-width: 375px)
+  and (max-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
     .links {
       display: none;
@@ -480,7 +480,8 @@ body {
 
 /* iPhone Plus Portrait and Landscape */
 @media only screen
-  and (min-device-width: 414px)
+  and (min-width: 414px)
+  and (max-width: 767px)
   and (-webkit-min-device-pixel-ratio: 3) {
     .links {
       display: none;
@@ -569,8 +570,8 @@ body {
 
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (min-width: 768px)
+  and (max-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .links {
       display: none;
@@ -604,7 +605,7 @@ body {
 
     .project2:hover {
       display: inline-block;
-      height: 12em;
+      height: 24em;
       width: 80%;
       margin: 2em 1.5em 2em 1.5em;
       float: left;
