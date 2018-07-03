@@ -13,12 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 600px){
-  .footersocial{
-    display: none;
-  }
-}
-
 .portmanteau1 {
   height: 65vh;
 }
@@ -34,6 +28,7 @@ body {
   vertical-align: top;
   padding-top: 10%;
   padding-bottom: 5%;
+  font-size: 1.8em;
 }
 
 .welcome2 {
@@ -305,4 +300,93 @@ body {
   .body {
      font-size: 2vw;
   }
+}
+
+/* iPhone 6/7/8 Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .links {
+    display: none;
+  }
+
+  .homeimg {
+    display: none;
+  }
+
+  .welcome1 {
+    font-family: 'Lora', serif;
+    line-height: 2;
+    vertical-align: top;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 1.5em;
+  }
+
+  .project2 {
+    display: inline-block;
+    height: 12em;
+    width: 80%;
+    margin: 2em 1.5em 2em 1.5em;
+    float: left;
+    text-decoration: none;
+  }
+
+  .project2:hover {
+    display: inline-block;
+    height: 12em;
+    width: 80%;
+    margin: 2em 1.5em 2em 1.5em;
+    float: left;
+    text-decoration: none;
+  }
+
+  .portmanteau2 {
+    background-color: #f3f0ed;
+    height: 400vh;
+  }
+
+  .portmanteau3 {
+    background-color: #fff;
+    height: 25vh;
+  }
+
+  .welcome2 {
+    font-family: 'Lora', serif;
+    font-weight: 100;
+    line-height: 2;
+    vertical-align: top;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3em;
+    padding-left: 15%;
+    padding-bottom: 5%;s
+  }
+
+  .aboutbutton {
+    color: #333;
+    font-family: avenir,sans-serif;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    background-color: white;
+    width: 10%
+    line-height: 200%;
+    border: 1px solid #d8d7d6;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    font-size: 0.9em;
+    background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+    background-size: 100% 200%;
+    transition: background-position .3s;
+  }
+
+  .footer{
+    text-decoration: none;
+    display: inline-block;
+  }
+
 }
