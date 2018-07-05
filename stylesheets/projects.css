@@ -336,3 +336,330 @@
      font-size: 2vw;
   }
 }
+
+/* iPhone 6/7/8 Portrait and Landscape */
+@media only screen
+  and (min-width: 360px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .links {
+    display: none;
+  }
+
+  .portmanteau1 {
+    height: 40vh;
+  }
+
+  .portmanteau2 {
+    background-color: #f3f0ed;
+    height: 110vh;
+  }
+
+  .portmanteau22 {
+    background-color: #f3f0ed;
+    height: 130vh;
+  }
+
+  .portmanteau222 {
+    background-color: #f3f0ed;
+    height: 110vh;
+  }
+
+  .portmanteauTarsier {
+    background-color: #f3f0ed;
+    height: 425vh;
+  }
+
+  .portmanteau3 {
+    background-color: #fff;
+    height: 20vh;
+  }
+
+  .technologies{
+    font-weight: 100;
+    font-size: 0.9em;
+    padding-bottom: 0.5em;
+    line-height: 2.1em;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    padding: 5% 15% 5% 15%;
+    width: 100%;
+  }
+
+  .technologies1{
+    font-weight: 100;
+    font-size: 0.9em;
+    line-height: 2.1em;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    padding: 5% 17% 1% 18%;
+    width: 100%;
+  }
+
+  .technologies2{
+    font-weight: 100;
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    line-height: 2.1em;
+    text-align: justify;
+    font-family: 'Lora', serif;
+    padding: 5% 26% 5% 26%;
+    width: 100%;
+  }
+
+  .linkbuttons{
+    color: #333;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    font-size: 0.8em;
+    border: 1px solid #d8d7d6;
+    transition: background-position .3s;
+    line-height: 1.5rem;
+    border-radius: 0;
+    background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+    background-size: 100% 200%;
+  }
+
+  .footer{
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+/* iPhone 5 Portrait and Landscape */
+@media only screen
+  and (min-width: 319px)
+  and (max-width: 812px){
+    .links {
+      display: none;
+    }
+
+    .portmanteau1 {
+      height: 43vh;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 120vh;
+    }
+
+    .portmanteau22 {
+      background-color: #f3f0ed;
+      height: 130vh;
+    }
+
+    .portmanteau222 {
+      background-color: #f3f0ed;
+      height: 160vh;
+    }
+
+    .portmanteauTarsier {
+      background-color: #f3f0ed;
+      height: 425vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 20vh;
+    }
+
+    .technologies{
+      font-weight: 100;
+      font-size: 0.9em;
+      padding-bottom: 0.5em;
+      line-height: 2.1em;
+      text-align: justify;
+      font-family: 'Lora', serif;
+      padding: 5% 15% 5% 15%;
+      width: 100%;
+    }
+
+    .technologies1{
+      font-weight: 100;
+      font-size: 0.9em;
+      line-height: 2.1em;
+      text-align: justify;
+      font-family: 'Lora', serif;
+      padding: 5% 17% 1% 18%;
+      width: 100%;
+    }
+
+    .technologies2{
+      font-weight: 100;
+      font-size: 1em;
+      padding-bottom: 0.5em;
+      line-height: 2.1em;
+      text-align: justify;
+      font-family: 'Lora', serif;
+      padding: 5% 26% 5% 26%;
+      width: 100%;
+    }
+
+    .linkbuttons{
+      color: #333;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 1.5em;
+      padding: 8px 22px;
+      text-align: center;
+      text-decoration: none;
+      overflow: hidden;
+      font-weight: 100;
+      letter-spacing: .1rem;
+      font-size: 0.8em;
+      border: 1px solid #d8d7d6;
+      transition: background-position .3s;
+      line-height: 1.5rem;
+      border-radius: 0;
+      background-image: linear-gradient(#fff, #fff 50%, #222222 50%, #222222);
+      background-size: 100% 200%;
+    }
+
+    .footer{
+      text-decoration: none;
+      display: inline-block;
+    }
+}
+
+/* iPhone X Portrait and Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .links {
+      display: none;
+    }
+
+    .portmanteau1 {
+      height: 35vh;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 100vh;
+    }
+
+    .portmanteau22 {
+      background-color: #f3f0ed;
+      height: 130vh;
+    }
+
+    .portmanteau222 {
+      background-color: #f3f0ed;
+      height: 90vh;
+    }
+
+    .portmanteauTarsier {
+      background-color: #f3f0ed;
+      height: 425vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 20vh;
+    }
+
+    .footer{
+      text-decoration: none;
+      display: inline-block;
+    }
+}
+
+/* iPhone Plus Portrait and Landscape */
+@media only screen
+  and (min-width: 414px)
+  and (max-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .links {
+      display: none;
+    }
+
+    .portmanteau1 {
+      height: 40vh;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 110vh;
+    }
+
+    .portmanteau22 {
+      background-color: #f3f0ed;
+      height: 130vh;
+    }
+
+    .portmanteau222 {
+      background-color: #f3f0ed;
+      height: 92vh;
+    }
+
+    .portmanteauTarsier {
+      background-color: #f3f0ed;
+      height: 425vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 20vh;
+    }
+
+    .footer{
+      text-decoration: none;
+      display: inline-block;
+    }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-width: 660px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .links {
+      display: none;
+    }
+
+    .portmanteau1 {
+      height: 50vh;
+    }
+
+    .portmanteau2 {
+      background-color: #f3f0ed;
+      height: 70vh;
+    }
+
+    .portmanteau22 {
+      background-color: #f3f0ed;
+      height: 130vh;
+    }
+
+    .portmanteau222 {
+      background-color: #f3f0ed;
+      height: 55vh;
+    }
+
+    .portmanteauTarsier {
+      background-color: #f3f0ed;
+      height: 425vh;
+    }
+
+    .portmanteau3 {
+      background-color: #fff;
+      height: 20vh;
+    }
+
+    .footer{
+      text-decoration: none;
+      display: inline-block;
+    }
+}
