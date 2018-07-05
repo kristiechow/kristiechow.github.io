@@ -471,9 +471,14 @@
       height: 160vh;
     }
 
+    .portmanteauTars {
+      height: 45vh;
+    }
+
     .portmanteauTarsier {
       background-color: #f3f0ed;
-      height: 425vh;
+      height: 720vh;
+      width: 102%;
     }
 
     .portmanteau3 {
@@ -498,7 +503,7 @@
       line-height: 2.1em;
       text-align: justify;
       font-family: 'Lora', serif;
-      padding: 5% 17% 1% 18%;
+      padding: 5% 10% 1% 10%;
       width: 100%;
     }
 
@@ -577,9 +582,14 @@
       height: 90vh;
     }
 
+    .portmanteauTars {
+      height: 42vh;
+    }
+
     .portmanteauTarsier {
       background-color: #f3f0ed;
-      height: 425vh;
+      height: 590vh;
+      width: 102%;
     }
 
     .portmanteau3 {
@@ -630,9 +640,14 @@
       height: 92vh;
     }
 
+    .portmanteauTars {
+      height: 50vh;
+    }
+
     .portmanteauTarsier {
       background-color: #f3f0ed;
-      height: 425vh;
+      height: 620vh;
+      width: 102%;
     }
 
     .portmanteau3 {
@@ -681,9 +696,14 @@
       height: 55vh;
     }
 
+    .portmanteauTars {
+      height: 55vh;
+    }
+
     .portmanteauTarsier {
       background-color: #f3f0ed;
-      height: 425vh;
+      height: 310vh;
+      width:102%;
     }
 
     .portmanteau3 {
