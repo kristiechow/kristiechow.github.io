@@ -266,8 +266,29 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 521px) {
+.cookiesstyle{
+  padding: 1% 24% 5% 24%;
+  text-align: justify;
+}
+
+.aboutstyle{
+  padding: 7% 24% 0 24%;
+  text-align: justify;
+}
+
+@media only screen
+  and (min-width: 375px){
   .body {
      font-size: 2vw;
+  }
+
+  .cookiesstyle{
+    padding: 1% 4% 5% 4%;
+    text-align: justify;
+  }
+
+  .aboutstyle{
+    padding: 7% 4% 0 4%;
+    text-align: justify;
   }
 }
