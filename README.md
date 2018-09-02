@@ -1,2 +1,2 @@
 # KChow Personal Website
-http://kristiechow.com
+https://kristiechow.com
