@@ -113,6 +113,8 @@ section {
 
 .separator {
   padding: 3% 1% 3% 2%;
+  display: block;
+  margin: 0 auto;
 }
 
 .img-with-text {
@@ -228,8 +230,9 @@ section {
 
 .sub1{
   font-family: 'Lora', serif;
+  text-align: center;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-bottom: 0.8em;
   margin-top: 0.3em;
   margin-left: 0.7em;
@@ -239,6 +242,61 @@ section {
   font-weight: 300;
   font-size: 1.1em;
   display: inline-block;
+}
+
+.sub3{
+  color: #957e64;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 1.0em;
+  margin-bottom: 0.7em;
+  margin-top: 0.3em;
+  margin-left: 1.7em;
+  font-weight: 500;
+}
+
+.sub4{
+  color: #362e24;
+  text-align: center;
+  font-size: 1.0em;
+  margin-bottom: 1.7em;
+  margin-top: 0.3em;
+  margin-left: 1.7em;
+}
+
+.sub5{
+  color: #9d846c;
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 2.0em;
+  margin-top: -1.8em;
+  margin-left: 1.7em;
+}
+
+.link3 {
+  color: #957e64;
+  font-family: 'Lora', serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.0em;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+  margin-left: 1.7em;
+  font-weight: 600;
+}
+
+.link3:hover{
+  color: #675745;
+  font-family: 'Lora', serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.0em;
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+  margin-left: 1.7em;
+  font-weight: 600;
 }
 
 .label1{
@@ -351,7 +409,7 @@ section {
   display: inline-block;
   height: 19em;
   width: 43%;
-  margin: 2em 1.5em 2em 1.5em;
+  margin: 2em 1.1em 2em 1.3em;
   float: left;
   text-decoration: none;
 }
@@ -360,7 +418,7 @@ section {
   display: inline-block;
   height: 19em;
   width: 43%;
-  margin: 2em 1.5em 2em 1.5em;
+  margin: 2em 1.1em 2em 1.3em;
   float: left;
   text-decoration: none;
 }
@@ -426,7 +484,7 @@ section {
 
   .portmanteau2 {
     background-color: #f3f0ed;
-    height: 370vh;
+    height: 420vh;
   }
 
   .portmanteau3 {
