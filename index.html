@@ -20,11 +20,19 @@
   ga('send', 'pageview');
 
   </script>
-
+  <script>
+  $(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+  </script>
   <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
   <script src="js/loader.js"></script>
+  <script src="js/parallax.js"></script>
   <script src="js/txtrotate.js"></script>
 </head>
 <body>
@@ -52,7 +60,13 @@
     </div>
     <div class="row" style="padding: 6% 10% 0 14%;">
       <div class="col-lg-11 col-xs-12" style="padding-top: 10%;">
-        <p class="sub1" id="projects">a collection of my projects</p>
+        <section id="section04" class="demo">
+            <a href="#skills"><span></span>Scroll</a>
+        </section>
+        <p class="sub1" id="skills">skills</p>
+        <p class="sub1" id="projects">work experience</p>
+        <img src="assets/separator.png" class="separator">
+        <p class="sub1" id="projects">a selection of my projects</p>
       </div>
         <a href="/roden.html" class="project2">
           <img class="projectpic" src="assets/roden1.png">
