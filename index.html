@@ -20,20 +20,14 @@
   ga('send', 'pageview');
 
   </script>
-  <script>
-  $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
-  </script>
+
   <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
   <script src="js/loader.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/txtrotate.js"></script>
+  <script src="js/isView.js"></script>
 </head>
 <body>
   <div class="se-pre-con"></div>
@@ -59,7 +53,6 @@
       <img src="assets/vertical_line.svg.png" class="line">
     </div>
     <div class="row" style="padding: 6% 10% 0 14%;">
-
       <div class="col-lg-11 col-xs-12" style="padding-top: 10%;">
         <img src="assets/separator.png" class="separator">
         <p class="sub1" id="skills">technical skills</p>
@@ -73,6 +66,7 @@
 
         <p class="sub1" id="projects">projects</p>
       </div>
+
       <a href="/codetribute.html" class="project2">
         <img class="projectpic" src="assets/response.jpg" >
         <p class="label1"> CODETRIBUTE </p>
@@ -81,6 +75,7 @@
           <img class="projectpic" src="assets/tarsierdemo.png">
           <p class="label1"> TARSIER GOGGLES </p>
         </a>
+
         <a href="/sendit.html" class="project2">
           <img class="projectpic" src="assets/send.png">
           <p class="label1"> SEND IT </p>
@@ -89,6 +84,7 @@
           <img class="projectpic" src="assets/changing1.png">
           <p class="label1"> CHANGING PERSPECTIVES </p>
         </a>
+
         <a href="/elderly.html" class="project2">
           <img class="projectpic" src="assets/elderly1.png">
           <p class="label1"> ELDER.LY </p>
