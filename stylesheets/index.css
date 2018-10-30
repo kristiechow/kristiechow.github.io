@@ -66,7 +66,11 @@ section {
 }
 
 .homeimg {
-  width: 95%;
+  width: 98%;
+}
+
+.txt-rotate{
+  margin-right: 1%;
 }
 
 #section04 a {
