@@ -230,6 +230,7 @@ section {
   padding-top: 0.3%;
   right: 0;
   position: fixed;
+  z-index: 10;
 }
 
 .sub1{
@@ -332,14 +333,27 @@ section {
 }
 
 .foottext{
-  font-weight: 150;
-  font-size: 0.5em;
+  font-weight: 250;
+  font-size: 0.7em;
   color: #444443;
-  text-align: center;
+  display: inline-block;
   letter-spacing: 0.1em;
   text-decoration: none;
   margin-top: 0.4em;
-  padding-left: 1.2em;
+  padding-left: 3.2em;
+  float: left;
+}
+
+.foottext1{
+  font-weight: 250;
+  font-size: 0.7em;
+  display: inline-block;
+  color: #444443;
+  float: right;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin-top: 0.4em;
+  padding-right: 3.2em;
 }
 
 .footlink{
